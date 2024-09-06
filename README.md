@@ -88,4 +88,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to update the repository URL, dependencies, and any other specifics relevant to your project.
+Feel free to update the repository URL, dependenc![WhatsApp Image 2024-09-06 at 19 16 09 (1)](https://github.com/user-attachments/assets/851a37f0-893c-4b6b-a8da-503386775e93)
+ies, and any other specifics relevant to your project.
