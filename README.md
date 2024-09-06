@@ -17,7 +17,7 @@ This repository contains two Java applications:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ParkingSpaceDetectionAndStorer.git
+   git clone https://github.com/krishnapree/Real-Time-Street-Parking/
    cd ParkingSpaceDetectionAndStorer
    ```
 
