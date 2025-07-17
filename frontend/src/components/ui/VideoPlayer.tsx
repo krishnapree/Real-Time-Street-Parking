@@ -238,7 +238,7 @@ export default function VideoPlayer({
               <p className="mb-4">{error}</p>
               {error.includes('format not supported') && (
                 <div className="mb-4 text-sm text-gray-300">
-                  <p className="mb-2">💡 <strong>Tip:</strong> This video was processed with an older codec that some browsers don't support.</p>
+                  <p className="mb-2">💡 <strong>Tip:</strong> This video was processed with an older codec that some browsers don&apos;t support.</p>
                   <p>Try uploading a new video for better compatibility, or use Chrome/Firefox for better codec support.</p>
                 </div>
               )}
