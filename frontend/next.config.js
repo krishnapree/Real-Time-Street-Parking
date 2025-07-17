@@ -4,17 +4,17 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['localhost'],
+    domains: ['https://real-time-street-parking.onrender.com'], // Replace with your backend domain if different
     unoptimized: true,
   },
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000',
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL, // Do NOT fall back to localhost in production
   },
   async rewrites() {
     return [
       {
         source: '/api/:path*',
-        destination: `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/api/:path*`,
+        destination: `${process.env.NEXT_PUBLIC_API_URL}/api/:path*`,
       },
     ];
   },
