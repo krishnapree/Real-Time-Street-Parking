@@ -171,7 +171,7 @@ export function useProcessingStatus(jobId: string | null, interval: number = 300
 export function useApiQueue() {
   const [queue, setQueue] = useState<Array<{ id: string; promise: Promise<any> }>>([]);
   const [results, setResults] = useState<Record<string, any>>({});
-  const [errors, setErrors] = useState<Record<string, ApiError>>({});
+  const [errors, setErrors] = useState<Record<string, ApiError | undefined>>({});
   const [loading, setLoading] = useState<Record<string, boolean>>({});
 
   const addToQueue = useCallback(
