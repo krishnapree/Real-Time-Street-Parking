@@ -30,7 +30,10 @@ app = FastAPI(
 # CORS middleware with flexible localhost support
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Temporarily allow all origins
+    allow_origins=[
+        "http://localhost:3000",
+        "https://real-time-street-parking-1.onrender.com"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
